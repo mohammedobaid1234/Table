@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabel</title>
+    <style>
+         caption{
+             font-size: 20px;
+            font-weight:bold;
+        }
+     table td,th,tr{
+            border:1px solid #000 ;
+         margin: 0;
+        }
+        td,th{
+            padding: 10px;
+            width: 150px;
+            text-align:center;    
+        }
+        td{
+            width: 40px;
+        }
+       p{
+            padding: 0;
+            margin: 0;
+        }
+        .specal{
+            padding: 0;
+        }
+      .a td{
+            background: #70A519;
+        }
+        .b td{
+            background: #E5AB0D;
+        }
+        figure{
+            font-size: 20px;
+            font-weight:bold;
+            padding: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <table id="First-tabel" >
+        <caption>The Table of Student</caption>
+        <tr>
+            <td style="background: #70A519"><p>Grossfi Group</p><p>Class</p></td>
+            <td style="background: #D5CC25 "><p>Open Gym</p><p>SUTE 400</p></td>
+            <td style="background: #19A58E">Fundomantal</td>
+            <td style="background: #F7EC06 ">PEAK 60</td>
+            <td>YOGA</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>MONDAY</th>
+                <th>THUSDAY</th>
+                <th>WEDNSDAY</th>
+                <th>THURSDAY</th>
+                <th>FRIDAY</th>
+                <th>SATRDAY</th>
+                <th>SUNDAY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="a">
+                <td>5:30am</td>
+                <td>5:30am</td>
+                <td>5:30am</td>
+                <td>5:30am</td>
+                <td>5:30am</td>
+                <td rowspan="3" style="background: #fff"></td>
+                <td rowspan="5" style="background: #fff"></td>             
+             </tr>
+            <tr class="b">
+                <td>5:30am- 7:00am</td>
+                <td style="padding: 0"><p>5:30am-</p><p>7:00am</p></td>
+                <td>5:30am- 7:00am</td>
+            <td>5:30am- 7:00am</td>
+            <td>5:30am- 7:00am</td>
+            
+            
+            </tr>
+            <tr class="a">
+                <td>8:00am</td>
+                <td class="specal"></td>
+                <td>8:00am</td>
+                <td class="c"></td>
+                <td>8:00am</td>
+                
+            
+            </tr>
+            <tr class="a">
+                <td>9:00am</td>
+                <td class="specal">9:00am</td>
+                <td>9:00am</td>
+                <td>9:00am</td>
+                <td>9:00am</td>
+                <td>9:00am</td>
+            </tr>
+            <tr>
+                <td class="c"></td>
+                <td class="specal"></td>
+                <td>10:15amYOGO</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr class="b">
+                <td>8:00am-10:00am</td>
+                <td class="specal"><p>8:00am-</p><p>10:00am</p></td>
+                <td>9:00am-10:00am</td>
+                <td><p>9:00am-</p><p>10:00am</p></td>
+                <td><p>9:00am-</p><p>10:00am</p></td>
+                <td><p>9:00am-</p><p>11:00am</p></td>
+                <td><p>9:00am-</p><p>12:00am</p></td>
+            </tr>
+            <tr class="b">
+               <td>4:00pm-8:00pm</td>
+                <td><p>4:00pm-</p><p>8:00pm</p></td>
+                <td>4:00pm-8:00pm</td>
+                <td>4:00pm-8:00pm</td>
+                <td>4:00pm-8:00pm</td>
+            </tr>
+            <tr class="a">
+                <td>6:00pm</td>
+                <td>6:00pm</td>
+                <td>6:00pm</td>
+                <td>6:00pm</td>
+                <td>6:00pm</td>
+            </tr>
+            <tr class="a">
+                <td>7:00pm</td>
+                <td>7:00pm</td>
+                <td>7:00pm</td>
+                <td style="background: E5AB0D">7:00pm PEAK 60</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <figure>
+       <figcaption>The Img of Tabel</figcaption>
+        <img src="imges/new-fall-schedule.jpg" alt="">
+    </figure>
+</body>
+</html>
